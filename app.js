@@ -74,7 +74,7 @@ app.post('/signup', async function (req, res) {
             })
             let data = await db.collection('signup').find().project({ password: 0 }).toArray();
 
-            res.status(200).json(data)
+            res.send('Registered successfully!')
 
 
         }
