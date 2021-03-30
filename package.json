@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "googleapis": "^68.0.0",
+    "mongodb": "^3.6.5",
+    "nodemailer": "^6.5.0"
+  }
+}
