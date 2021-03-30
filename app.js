@@ -19,7 +19,8 @@ const nodemailer = require('nodemailer');
 const { google } = require('googleapis');
 
 
-
+const cors = require('cors')
+app.use(cors())
 
 app.use(express.json());
 
