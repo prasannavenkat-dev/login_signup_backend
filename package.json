@@ -8,5 +8,8 @@
     "googleapis": "^68.0.0",
     "mongodb": "^3.6.5",
     "nodemailer": "^6.5.0"
-  }
+  },
+  "scripts": {
+    "start": "node app.js"
+}
 }
