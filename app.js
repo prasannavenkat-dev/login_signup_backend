@@ -91,11 +91,11 @@ app.post('/signup', async function (req, res) {
 })
 
 //SENDING MAIL
-const CLIENT_ID = process.env.CLIENT_ID;
+const CLIENT_ID = '886620775509-unc18l62pt1sa5c41egm2k516iqu6njf.apps.googleusercontent.com';
 
-const CLIENT_SECRET = process.env.CLIENT_SECRET;
-const REDIRECT_URL = process.env.REDIRECT_URL;
-const REFRESH_TOKEN = process.env.REFRESH_TOKEN;
+const CLIENT_SECRET = '6DLtcbCffSiZJJhIF_mpPlas';
+const REDIRECT_URL = 'https://developers.google.com/oauthplayground';
+const REFRESH_TOKEN = '1//04wbriEaoK4MeCgYIARAAGAQSNwF-L9IrXttEMdyhxXYe53_WVYImi0EzPEMDyv_KO917KAqtnF2rCtoWri-DJSDSCs_p-mmZa5s';
 const oAuth2Client = new google.auth.OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URL);
 oAuth2Client.setCredentials({ refresh_token: REFRESH_TOKEN })
 
