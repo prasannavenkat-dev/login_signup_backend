@@ -10,7 +10,6 @@ const bodyParser = require("body-parser");
 
 const dbURL = process.env.DB_URL;
 
-const port = process.env.PORT;
 
 
 
@@ -224,6 +223,6 @@ app.post('/login', async function (req, res) {
 
 })
 
-app.listen(port, function () {
+app.listen( process.env.PORT, function () {
     console.log('server started!!');
 })
