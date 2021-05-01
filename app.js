@@ -10,7 +10,7 @@ const bodyParser = require("body-parser");
 
 const dbURL = process.env.DB_URL;
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 
 
 
