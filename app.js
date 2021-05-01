@@ -224,5 +224,5 @@ app.post('/login', async function (req, res) {
 })
 
 app.listen( process.env.PORT, function () {
-    console.log('server started!!');
+    console.log(`server started at ${process.env.PORT}`);
 })
